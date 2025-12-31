@@ -64,22 +64,18 @@ Permette agli utenti di esplorare i corsi disponibili, registrarsi, prenotare se
 
 2. Configurare il database MySQL
 
-3. Creare il file application.properties usando come riferimento application.properties.example
+3. Creare il file `application.properties` usando come riferimento `application.properties.example`
 
-4. Avviare il progetto con:
-
-```bash
-
-mvn spring-boot:run
+4. Avviare il progetto con: `mvn spring-boot:run`
 
 
 ### Front-end
 
 1. Entrare nella cartella frontend
 
-2. Installare le dipendenze: npm install
+2. Installare le dipendenze: `npm install`
 
-3. Avviare il progetto: npm start
+3. Avviare il progetto: `npm start`
 
 4. Accedere al portale tramite browser
 
