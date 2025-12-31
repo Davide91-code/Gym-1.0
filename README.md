@@ -38,19 +38,21 @@ Permette agli utenti di esplorare i corsi disponibili, registrarsi, prenotare se
 ---
 
 ### Home
-![Home](screenshots/Home.png)
+![Home](./screenshots/home.png)
 
 ### Categorie corsi
-![Categorie corsi](screenshots/Categorie corsi.png)
+![Categorie corsi](./screenshots/categorie_corsi.png)
 
 ### Login
-![Login](screenshots/Login.png)
+![Login](./screenshots/login.png)
 
 ### Visualizzazione corsi + prenotazione
-![Visualizzazione corsi + prenotazione](screenshots/Visualizzazione corsi + prenotazione.png)
+![Visualizzazione corsi + prenotazione](./screenshots/visualizzazione_corsi_prenotazione.png)
 
 ### Profilo utente + annulla corso
-![Profilo utente + annulla corso](screenshots/Profilo utente + annulla corso.png)
+![Profilo utente + annulla corso](./screenshots/profilo_utente_annulla_corso.png)
+
+
 
 ---
 
