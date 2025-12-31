@@ -1,0 +1,101 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+  min-height: 120px;
+  background-color: #222;
+  color: white;
+  width: 100%;
+  position: relative;
+}
+
+/* CORRETTE LE CLASSI QUI */
+.header-section-left {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-section-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-section-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.menu-btn {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+/* Sidebar */
+.side-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  width: 200px;
+  padding: 20px;
+  z-index: 999;
+}
+
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-menu li {
+  margin-bottom: 15px;
+}
+
+.side-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.side-menu a:hover {
+  text-decoration: underline;
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  color: #f44336;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.logout-button:hover {
+  text-decoration: underline;
+}
+
+.welcome-text {
+  font-style: italic;
+  margin-right: 0.5rem;
+}
