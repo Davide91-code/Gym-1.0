@@ -1,101 +1,83 @@
-\# Gym 1.0 – Piattaforma di gestione corsi fitness
+# Gym 1.0
 
-
-
-\## Screenshot
-
-!\[Home](./screenshots/Home.png)
-
-!\[Categorie corsi](./screenshots/Categorie corsi.png)
-
-!\[Login](./screenshots/Login.png)
-
-!\[Visualizzazione corsi + prenotazione](./screenshots/Visualizzazione corsi + prenotazione.png)
-
-!\[Profilo utente + annulla corso](./screenshots/Profilo utente + annulla corso.png)
-
-
-
----
-
-
-
-\## Descrizione
-
-Gym 1.0 è una piattaforma web pensata per la gestione completa dei corsi fitness.  
-
+Gym 1.0 è una piattaforma web per la gestione completa dei corsi fitness.  
 Permette agli utenti di esplorare i corsi disponibili, registrarsi, prenotare sessioni e gestire il proprio profilo in maniera semplice e intuitiva.
 
+---
 
+## Funzionalità principali
+
+### Utente
+- Visualizzazione dei corsi disponibili con informazioni su coach, descrizione e orari
+- Registrazione e login
+- Prenotazione di sessioni e gestione del proprio profilo
+- Possibilità di annullare le prenotazioni già effettuate
+
+### Admin
+- Accesso protetto tramite login
+- Possibilità di gestire corsi e utenti (lato admin in sviluppo)
+- Storico delle operazioni e gestione delle prenotazioni
 
 ---
 
+## Tecnologie utilizzate
 
+### Back-end
+- Java
+- Spring Boot
+- MySQL
+- IntelliJ IDEA
 
-\## Funzionalità principali
-
-\- \*\*Pagina principale\*\* con menù e accesso alle categorie
-
-\- \*\*Visualizzazione dettagli corsi:\*\* informazioni su coach, descrizione, orari e pulsante di prenotazione
-
-\- \*\*Registrazione e login\*\* utenti
-
-\- \*\*Gestione profilo utente:\*\* sessioni prenotate e possibilità di annullarle
-
-\- \*\*Backend sicuro:\*\* credenziali e JWT protetti, senza dati sensibili nel repository
-
-
-
----
-
-
-
-\## Tecnologie utilizzate
-
-\*\*Backend:\*\* Java, Spring Boot  
-
-\*\*Frontend:\*\* React, JavaScript, HTML, CSS  
-
-\*\*Database:\*\* MySQL, DBeaver  
-
-\*\*Editor:\*\* IntelliJ IDEA, VS Code
-
-
+### Front-end
+- JavaScript
+- React (JSX)
+- HTML
+- CSS
+- VS Code
 
 ---
 
+### Home
+![Home](screenshots/Home.png)
 
+### Categorie corsi
+![Categorie corsi](screenshots/Categorie corsi.png)
 
-\## Stato attuale
+### Login
+![Login](screenshots/Login.png)
 
-\- Versione stabile già pubblicata  
+### Visualizzazione corsi + prenotazione
+![Visualizzazione corsi + prenotazione](screenshots/Visualizzazione corsi + prenotazione.png)
 
-\- In corso refactor e miglioramenti:
-
-&nbsp; - Design e colori
-
-&nbsp; - Posizionamento delle immagini
-
-&nbsp; - Implementazione lato admin
-
-
+### Profilo utente + annulla corso
+![Profilo utente + annulla corso](screenshots/Profilo utente + annulla corso.png)
 
 ---
 
+## Avvio del progetto
 
+### Back-end
 
-\## Esecuzione locale
+1. Clonare il repository: git clone https://github.com/Davide91-code/Gym-1.0.git
 
-1\. Clonare il repository:
+2. Configurare il database MySQL
+
+3. Creare il file application.properties usando come riferimento application.properties.example
+
+4. Avviare il progetto con:
 
 ```bash
 
-git clone https://github.com/Davide91-code/Gym-1.0.git
+mvn spring-boot:run
 
 
-2\. Configurare il backend: Modificare backend/src/main/resources/application.properties con le proprie credenziali locali
+### Front-end
 
-3\. Eseguire backend e frontend secondo le rispettive istruzioni
+1. Entrare nella cartella frontend
 
-4\. Accedere al portale tramite browser per testare le funzionalità
+2. Installare le dipendenze: npm install
+
+3. Avviare il progetto: npm start
+
+4. Accedere al portale tramite browser
 
